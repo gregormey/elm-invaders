@@ -17,5 +17,5 @@ alienRow aliens =
 
 alienCol : Alien -> Html Msg
 alienCol alien =
-        li [class alien.alienType][]  
+        li [class (String.concat ["Alien ", alien.alienType])][]  
 
