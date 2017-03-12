@@ -1,0 +1,33 @@
+body, .AlienPad {
+	background-color: #000000;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display:  inline-block;
+}
+
+@keyframes play {
+	from {
+       		 background-position: 0px 0px ; 
+        }
+	to {
+		background-position: -300px 0px; 
+	}
+
+}
+
+.Alien{
+	 background: url(sprite.gif);
+	 width:150px;
+	 height:100px;
+	 animation: play 1s infinite steps(2);
+         background-repeat: no-repeat;
+}
+
+
