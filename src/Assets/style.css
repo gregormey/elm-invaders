@@ -14,17 +14,17 @@ li {
 
 @keyframes play {
 	from {
-       		 background-position: 0px 0px ; 
+       		 background-position: -73px 0px ; 
         }
 	to {
-		background-position: -300px 0px; 
+		background-position: -212px 0px; 
 	}
 
 }
 
 .Alien{
-	 background: url(sprite.gif);
-	 width:150px;
+	 background: url(sprite.png);
+	 width:22px;
 	 height:100px;
 	 animation: play 1s infinite steps(2);
          background-repeat: no-repeat;
